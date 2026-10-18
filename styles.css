@@ -112,3 +112,62 @@ figcaption {
   outline-offset: 4px
 }
   
+/* ===================================
+   Creative Coders Navigation Menu
+   Date: 10/18/2026
+   =================================== */
+
+nav {
+  background-color: #183b32;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #326b58;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+nav a:focus-visible {
+  outline: 3px solid #ffcc66;
+  outline-offset: 4px;
+}
+
+/* Smooth Scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile Navigation */
+
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
