@@ -31,12 +31,22 @@ section {
   margin-top: 2rem;
   padding: 1.5rem;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #d6ded8;
+  border: 2px solid #d6ded8;
   border-radius: 8px;
 }
 
-h2 {
+section h2 {
   margin-top: 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+p {
+  line-height: 1.8;
 }
 
 /* Links */
@@ -78,26 +88,18 @@ figcaption {
 #phoenix-art {
   background-color: rgba(255, 241, 235, 0.8);
   border: 2px solid #c66b4e;
-  border-radius: 12px;
-  padding: 2rem;
-  margin-top: 2rem;
 }
 
 #phoenix-art h2 {
   color: #9e412e;
-  text-align: center;
-  margin-bottom: 1.5rem;
 }
 
 #phoenix-art h3 {
   color: #a34f32;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
 }
   
 #phoenix-art p {
   color: #333333;
-  line-height: 1.8;
 }
 
 #phoenix-art a {
@@ -125,7 +127,6 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
   padding: 8px 12px;
   border-radius: 5px;
 }
@@ -198,10 +199,6 @@ html {
 
 /* Small Screen Improvements */
 @media screen and (max-width: 600px) {
-  #phoenix-art {
-    padding: 1rem;
-  }
-
   section {
     padding: 1rem;
   }
