@@ -1,7 +1,7 @@
 /* General page styles */
 body {
   margin: 0;
-  background-color: #f5f2ec;
+  background: linear-gradient(#f5f2ec, #fff7db) ;
   color: #29332f;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -30,7 +30,7 @@ main {
 section {
   margin-top: 2rem;
   padding: 1.5rem;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #d6ded8;
   border-radius: 8px;
 }
@@ -42,10 +42,12 @@ h2 {
 /* Links */
 a {
   color: #245c49;
+  text-decoration-thickness: 0.12em;
+  font-weight: bold;
 }
 
 a:hover {
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 0.2em;
 }
 
 a:focus-visible {
@@ -58,6 +60,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 figure {
@@ -73,7 +76,7 @@ figcaption {
 /*Phoenix section styling */
 
 #phoenix-art {
-  background-color: #fff1eb;
+  background-color: rgba(255, 241, 235, 0.8);
   border: 2px solid #c66b4e;
   border-radius: 12px;
   padding: 2rem;
@@ -99,17 +102,10 @@ figcaption {
 
 #phoenix-art a {
   color: #9e412e;
-  font-weight: bold;
 }
 
 #phoenix-art a:hover {
   color: #702c20;
-  text-decoration: underline;
-}
-
-#phoenix-art a:focus-visible {
-  outline: 3px solid #9e412e;
-  outline-offset: 4px;
 }
   
 /* ===================================
@@ -136,13 +132,12 @@ nav a {
 
 nav a:hover {
   background-color: #326b58;
-  color: #ffffff;
   text-decoration: underline;
+  color: #ffcc66;
 }
 
 nav a:focus-visible {
-  outline: 3px solid #ffcc66;
-  outline-offset: 4px;
+  color: #ffcc66;
 }
 
 /* Smooth Scrolling */
