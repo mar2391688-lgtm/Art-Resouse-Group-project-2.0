@@ -109,7 +109,7 @@ figcaption {
 
 #phoenix-art a:focus-visible {
   outline: 3px solid #9e412e;
-  outline-offset: 4px
+  outline-offset: 4px;
 }
   
 /* ===================================
@@ -197,6 +197,18 @@ html {
 @media screen and (max-width: 600px) {
   .video-container {
     margin-top: 1rem;
+  }
+}
+
+
+/* Small Screen Improvements */
+@media screen and (max-width: 600px) {
+  #phoenix-art {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1rem;
   }
 }
 
